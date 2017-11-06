@@ -1,0 +1,28 @@
+@chaeset 'utf-8';
+div {
+            margin: 0;
+            padding: 0;
+        }
+
+        .board {
+            width: 500px;
+            height: 500px;
+            border: 1px solid #ccc;
+            position: relative;
+            margin: 50px auto 0 auto;
+        }
+
+            .board div {
+                width: 40px;
+                height: 40px;
+                position: absolute;
+                color: white;
+                cursor: pointer;
+            }
+
+        .act {
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 20px;
+        }
